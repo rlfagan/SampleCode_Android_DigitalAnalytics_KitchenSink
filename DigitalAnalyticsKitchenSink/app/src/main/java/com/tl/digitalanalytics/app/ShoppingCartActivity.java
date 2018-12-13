@@ -200,23 +200,4 @@ public class ShoppingCartActivity extends AppCompatActivity {
 		private TextView name;
 		private TextView price;
 	}
-
-	@Override
-	protected void onResume()
-	{
-		super.onResume();
-	}
-
-	@Override
-	protected void onPause()
-	{
-		super.onPause();
-	}
-
-
-	@Override
-	protected void onDestroy()
-	{
-		super.onDestroy();
-	}
 }

@@ -226,23 +226,4 @@ public class ProductsActivity extends AppCompatActivity
 			showDialog(position, bundle);
 		}
 	}
-
-	@Override
-	protected void onResume()
-	{
-		super.onResume();
-	}
-
-	@Override
-	protected void onPause()
-	{
-		super.onPause();
-	}
-
-
-	@Override
-	protected void onDestroy()
-	{
-		super.onDestroy();
-	}
 }
