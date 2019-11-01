@@ -1,10 +1,9 @@
 /*******************************************************************************
- * Licensed Materials - Property of IBM
- * (C) Copyright IBM Corp. 2016
- * US Government Users Restricted Rights - Use, duplication or disclosure
- * restricted by GSA ADP Schedule Contract with IBM Corp.
- ******************************************************************************/
- 
+* Licensed Materials - Property of IBM
+* (C) Copyright IBM Corp. 2019
+* US Government Users Restricted Rights - Use, duplication or disclosure
+* restricted by GSA ADP Schedule Contract with IBM Corp.
+******************************************************************************/
 {
-	"LibraryVersion":"1.0.3.0"
+  "LibraryVersion": "1.1.2"
 }
