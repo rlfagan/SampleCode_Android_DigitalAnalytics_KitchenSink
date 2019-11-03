@@ -10,17 +10,19 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.da.kitchensink.R;
 import com.tl.digitalanalytics.model.Product;
@@ -134,8 +136,13 @@ public class ShoppingCartActivity extends AppCompatActivity {
 		
 		return builder.create();
 	}
-	
-	private class SourceAdapter extends BaseAdapter
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent e) {
+        return super.dispatchTouchEvent(e);
+    }
+
+    private class SourceAdapter extends BaseAdapter
 	{
 		private Product[] products;
 		

@@ -6,6 +6,17 @@
 ******************************************************************************/
 {
   "AutoLayout": {
+    "IBMGlobalScreenSettings":{
+      "ScreenChange": true,
+      "DisplayName": "",
+      "CaptureLayoutDelay": 500,
+      "ScreenShot": false,
+      "NumberOfWebViews": 0,
+      "CaptureUserEvents": true,
+      "CaptureScreenVisits": true,
+      "CaptureLayoutOn": 2,
+      "CaptureScreenshotOn": 0
+    },
     "MainActivity": {
       "do": true,
       "screenViewName": "MainActivity",

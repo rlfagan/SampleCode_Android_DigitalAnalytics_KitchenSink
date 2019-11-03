@@ -9,6 +9,7 @@ package com.tl.digitalanalytics.app;
 import android.app.Application;
 
 import com.da.DigitalAnalyticsModule;
+import com.tl.uic.*;
 import com.tl.uic.Tealeaf;
 
 import com.digitalanalytics.api.DigitalAnalytics;
